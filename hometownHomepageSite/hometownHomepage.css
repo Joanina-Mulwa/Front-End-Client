@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+71a9db
+*/
+body {
+    background: linear-gradient(#99b1ca, #71a9db);
+    /* background: linear-gradient(#a2d2ff, #EFB0C9); */
+
+}
+
+#homePage {
+    border: 5px solid white;
+    border-radius: 30px;
+    display: block;
+    margin: 5px auto;
+    width: 80%
+}
+
+#hero {
+    height: 600px;
+    background-image: url("town.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 50px 100px 10px;
+    margin: 0px auto;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+
+
+}
+
+#title {
+    background: #457B9D;
+    padding: 5px 10px;
+    color: #F1FAEE;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#details {
+    background: #1D3557;
+    padding: 5px 10px;
+    color: #F1FAEE;
+    width: 550px;
+    display: block;
+    margin: 10px auto 5px;
+    border-radius: 5px;
+}
+
+#activities {
+    background: #A8DADC;
+    padding-top: 5px;
+
+
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.activity-image {
+    border: 5px solid #E63946;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 43%;
+    width: 50%;
+}
+
+.activity {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.activity-card {
+
+    width: 250px;
+    height: 300px;
+}
+
+#profile {
+    background: #F1FAEE;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+
+.card {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #A8DADC;
+    border-radius: 10px;
+}
+
+.profile-image {
+    border-radius: 10px;
+    margin: 15px;
+    height: 200px;
+    width: 180px;
+}
+
+.more {
+    text-align: center;
+}
